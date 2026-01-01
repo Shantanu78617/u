@@ -1,5 +1,6 @@
-streamlit==1.28.0
+streamlit>=1.32.0  # Newer version has Python 3.13 fixes
 gspread==5.12.0
 oauth2client==4.1.3
-pandas==2.1.3
+pandas>=2.2.1  # Must be >=2.2 for Python 3.13
 python-dotenv==1.0.0
+numpy<2.0.0,>=1.24.3  # Add numpy constraint if needed
